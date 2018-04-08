@@ -1,0 +1,8 @@
+[package]
+
+name = "knockr"
+version = "0.0.1"
+authors = [ "Michael Quinn <michael@cherrysoft.com>" ]
+
+[dependencies]
+clap = {version = "2.31", features = ["yaml"]}

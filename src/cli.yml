@@ -1,0 +1,13 @@
+name: knockr
+version: "0.0.1"
+author: Michael Quinn <michael@cherrysoft.com>
+about: Simple Rust port knocker
+args:
+    - ip:
+        help: The IP address you wish to knock
+        required: true
+        index: 1
+    - ports:
+        help: The ports you with to kock - separate with comma ","
+        required: true
+        index: 2
