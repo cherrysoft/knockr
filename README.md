@@ -5,4 +5,6 @@ A tiny port knocker written in Rust
 Clone the repo and run `cargo build` from the root directory
 
 ## Usage
-./target/debug/knockr <ip> <port1>,<port2>... etc.
+```bash
+./target/debug/knockr 127.0.0.1 6000,7000,8000
+```
