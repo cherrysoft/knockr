@@ -1,8 +1,15 @@
 # knockr
-A tiny port knocker written in Rust
+A tiny port knocker with implementations in Rust and Crystal
 
-## Installation
-Clone the repo and run `cargo build` from the root directory
+# Installation and Usage
+Clone the repo and follow the below instructions
 
-## Usage
-./target/debug/knockr <ip> <port1>,<port2>... etc.
+## Rust
+Change directory into rust and run `cargo build`
+
+./target/debug/knockr 127.0.0.1 1000,2000,3000
+
+## Crystal
+Change directory into crystal and run `crystal build knockr.cr`
+
+knockr 127.0.0.1 1000,2000,3000
